@@ -7,24 +7,20 @@ const BLOG = {
   THEME: 'fukasawa',
   LANG: process.env.NEXT_PUBLIC_LANG || 'en-US',
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2024,
-
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false,
   NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 60,
   REVALIDATION_TOKEN: process.env.REVALIDATION_TOKEN || '',
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'dark',
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6],
-
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Siddhi Shitole',
   BIO: process.env.NEXT_PUBLIC_BIO || 'MS CS @ Syracuse | ML Engineer | Research Assistant at Maxwell School',
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://siddhi-blog.vercel.app',
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://notion-next.vercel.app',
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Machine Learning, NLP, AI, Data Science, Research',
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico',
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '',
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/',
   BEI_AN_GONGAN: process.env.NEXT_PUBLIC_BEI_AN_GONGAN || '',
-
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true,
-
   ...require('./conf/comment.config'),
   ...require('./conf/contact.config'),
   ...require('./conf/post.config'),
@@ -40,24 +36,16 @@ const BLOG = {
   ...require('./conf/ai.config'),
   ...require('./conf/performance.config'),
   ...require('./conf/top-tag.config'),
-
   ...require('./conf/layout-map.config'),
   ...require('./conf/notion.config'),
   ...require('./conf/dev.config'),
-
   CUSTOM_EXTERNAL_JS: [''],
   CUSTOM_EXTERNAL_CSS: [''],
-
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true,
   CAN_COPY: process.env.NEXT_PUBLIC_CAN_COPY || true,
-
   ...require('./conf/techgrow.config'),
-
   LAYOUT_SIDEBAR_REVERSE: process.env.NEXT_PUBLIC_LAYOUT_SIDEBAR_REVERSE || false,
-
-  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hi, I am Siddhi 👋, MS CS @ Syracuse University, ML Engineer & Researcher, Welcome to my blog 🎉',
-
+  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Hi, I am Siddhi 👋,MS CS @ Syracuse University,ML Engineer & Researcher,Welcome to my blog 🎉',
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
 }
 
