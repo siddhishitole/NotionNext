@@ -1,6 +1,6 @@
 const BLOG = {
   API_BASE_URL: process.env.API_BASE_URL || 'https://www.notion.so/api/v3',
-  NOTION_PAGE_ID: '373c89a34ecc80b3a849dd6630ed1a59',
+  NOTION_PAGE_ID: '24cc89a34ecc83f888dc01fba56f8b77',
   BLOG_TITLE: "Siddhi's Blog",
   BLOG_AUTHOR: 'Siddhi Shitole',
   BLOG_EMAIL: 'sshitole@syr.edu',
