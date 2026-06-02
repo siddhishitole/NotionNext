@@ -4,7 +4,7 @@ const BLOG = {
   BLOG_TITLE: "Siddhi's Blog",
   BLOG_AUTHOR: 'Siddhi Shitole',
   BLOG_EMAIL: 'sshitole@syr.edu',
-  THEME: 'fukasawa',
+  THEME: 'next',
   LANG: process.env.NEXT_PUBLIC_LANG || 'en-US',
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2024,
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false,
